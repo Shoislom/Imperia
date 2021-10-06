@@ -1,0 +1,554 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px dotted rgb(255, 8, 8); */
+}
+
+body {
+    width: 100%;
+    height: max-content;
+    min-height: 100vh;
+    font-family: Montserrat;
+    background-color:  #E5E5E5
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+
+/* <!-- head language starts --> */
+
+.head-lang {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+.head_lang {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.lang1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 1.5px;
+    color: white;
+}
+
+.lang2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 1.5px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+
+/* <!-- navbar starts --> */
+
+.navbar {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 96px;
+    height: 32px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 140%;
+}
+
+.nav1-ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+.nav1-ul li a {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+}
+
+.nav2-right {
+    margin: 0px 15px;
+}
+
+.btn-enter {
+    width: 75px;
+    height: 30px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 140%;
+    color: black;
+    background: #EDEDED;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn-enter:hover {
+    background: #c5c4c4;
+    transition: 0.3s;
+}
+
+.btn-register {
+    width: 195px;
+    height: 30px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 140%;
+    color: #0D0D0D;
+    background: #FFC000;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn-register:hover {
+    background: #c09000;
+    transition: 0.3s;
+}
+
+.shopcard {
+    width: 20px;
+    height: 20px;
+    color: rgb(63, 59, 54);
+    margin: 0px 25px;
+}
+
+.shopcard:hover {
+    color: rgb(173, 148, 148);
+    transition: 0.3s;
+
+}
+
+
+/* <!-- Body start --> */
+
+.body-first {
+    width: 100%;
+    height: 788px;
+    background: #fffb00;
+    background: -webkit-linear-gradient(to right, #fceb02, #FFC000);
+    background: linear-gradient(to right, #dfb601, #ffda06);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.first-content {
+    width: 100%;
+    height: 396px;
+    background-color: black;
+}
+
+.first-innercontent h1 {
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+    margin-top: 30px;
+}
+
+.first-innercontent p {
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.1px;
+    margin-top: 16px;
+}
+
+.button-tovar {
+    width: 130px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.play {
+    color: #FFC000;
+}
+
+.first-btn {
+    color: #FFC000;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+}
+
+.first-btn:hover {
+    color: #a87f02;
+    transition: 0.2s;
+}
+
+.nashi_premushistva{
+ 
+    height: 72px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+
+.card-nash{
+    width: 294px;
+    height: 144px;
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-ic{
+    width: 40px;
+    height: 40px;
+}
+
+.card-nash p{
+    margin-top: 34px;
+}
+
+.card-nash:hover{
+    background-color: grey;
+    transition: 0.3s;
+}
+
+
+.sarlavha{
+   
+margin: 50px;
+  text-align: center;
+} 
+
+
+.luchshiy_tovari{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-biz{
+    width: 264px;
+    height: 522px;
+    background-color: white;
+    border-radius: 12px;
+  
+
+}  
+
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.button{
+Width:238px;
+Height:36px;
+background-color: yellow;
+color: black;
+}
+
+.text{
+    padding: 10px;
+}
+
+ .text h4{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+ }
+ .text p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+ }
+ .icons{
+     margin: 10px 0;
+ }
+ .star i{
+     color: #F7BA00;
+ }
+ .euro{
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 140%;
+ }
+ .button{
+     border: none;
+     border-radius: 8px;
+     font-weight: 600;
+font-size: 14px;
+line-height: 140%;
+background-color: orange;
+ }
+ .img-man{
+     border-radius: 10px 10px 0 0 ;
+ }
+
+ button:hover{
+     transition:0.3s;
+     color: orangered;
+     background-color:black;
+ }
+
+
+ .kategoriya {
+   
+     display: flex;
+     justify-content: space-between;
+    }
+
+    .kategpriya{
+      margin: 50px;
+      text-align: center;
+      font-size: 34px;
+    }
+    .iphone{
+        width: 1500px;
+        height: 400px;
+    background-color: #0C0926;
+    margin-top: 100px;
+    display: flex;
+   position: relative;
+
+    }
+
+.iphone2{
+width: 754px;
+height: 96px;
+color: #F7BA00;
+margin-left: 500px;
+margin-bottom: 10px;
+margin-top: 41px;
+}
+
+.img1{
+    
+    position:absolute;
+    top: -150px;
+    left: 80px;
+}
+
+.iphone2 h4{
+    font-size: 34px;
+    line-height: 140%;
+    width: 754px;
+height: 96px;
+color: white;
+
+}
+
+.iphone2 p{
+    margin-bottom: 10px; 
+margin-top: 41PX;
+width: 738px;
+height: 88px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+color: white;
+}
+.ikonka{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1030px;
+
+}
+
+.ikonka1{
+ Width:164,94px;
+Height:56px;
+background-color: white;
+border-radius: 5px;
+
+
+} 
+
+.ikonka2{
+    Width:172px;
+    Height:56px;
+  margin-right:400px;
+  
+}
+
+
+.yangi_tovar{
+margin: 50px;
+text-align: center;
+}
+
+
+
+.noviy_tovari{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-hamma{
+width: 264px;
+    height: 522px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.img-san{
+    border-radius: 10px 10px 0 0 ;
+}
+
+.iconlar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button1{
+    Width:238px;
+    Height:36px;
+    background-color: yellow;
+    color: black;
+    }
+    
+.button1{ 
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+font-size: 14px;
+line-height: 140%;
+background-color: orange;
+}
+
+
+
+.matn{
+    padding: 10px;
+}
+
+ .matn h4{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+ }
+ .matn p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+ }
+
+
+ .iconlar{
+    margin: 10px 0;
+}
+.starlar{
+    color: #F7BA00;
+}
+.eurolar{
+   font-weight: bold;
+   font-size: 10px;
+   line-height: 140%;
+}
+
+button1:hover{
+    transition:0.3s;
+    color: orangered;
+    background-color:black;
+}
+
+.kiyimlar{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
+ }
+
+.rasmm{
+    width: 705px;
+height: 470px;
+}
+
+.sozlari{
+    width: 1439px;
+height: 470px;
+background-color: white;
+}
+
+.sozlari h4{
+Width:556px;
+Height:96px;
+justify-content: center;
+font-size: 34px;
+line-height: 140%;
+color: black;
+margin-top: 150px;
+margin-left: 50px;
+
+}
+
+.sozlari p{
+width: 545px;
+height: 88px;
+margin: 25px 50px 0px;
+display: flex;
+letter-spacing: 0.44px;
+ }
+
+
+ .tugma5{
+    width: 197px;
+    height: 36px;
+    border-radius: 6px;
+    display: flex;
+  text-align: center;
+    padding: 8px 28px ;
+    margin: 25px 50px 0px;
+    font-size: 14px;
+    line-height: 140%;
+    background-color: #FFC000;
+font-family: Montserrat;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.75px;
+
+
+ }
