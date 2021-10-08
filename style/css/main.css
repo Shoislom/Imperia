@@ -161,7 +161,22 @@ body {
     width: 100%;
     height: 396px;
     background-color: black;
+    display: flex;
+    
+    position: relative;
 }
+
+ .first-content img{
+    Height: 650px;
+    Width: auto;
+ position: absolute;
+margin-left: 800px;
+ margin-top: -120px;
+
+ } 
+
+
+
 
 .first-innercontent h1 {
     color: white;
@@ -213,6 +228,7 @@ body {
 .first-btn:hover {
     color: #a87f02;
     transition: 0.2s;
+
 }
 
 .nashi_premushistva{
@@ -549,6 +565,181 @@ font-family: Montserrat;
 font-weight: 600;
 line-height: 20px;
 letter-spacing: 0.75px;
-
-
  }
+
+ .chegirma{
+    width: 1439px;
+    height: 470px;
+    background: #FFC000;
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    margin-top: 46px;
+
+   
+ }
+
+ .harfi h6{
+    width: 666px;
+    height: 124px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 140%;
+    text-align: center;
+    justify-content: center;
+   margin-top: 240px;
+   color: #0D0D0D;
+ }
+
+
+
+ .oxiri{
+    height: 323px;
+    width: 1440px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boshlar{
+    Width:110px;
+    Height:30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+} 
+
+.reja1 p{
+Width:265px;
+Height:88px;
+font-size: 14px;
+line-height: 160%;
+} 
+
+
+
+
+.reja2 h2{
+Width:134px;
+Height:22px;
+font-size: 14px;
+line-height: 160%;
+font-style: normal;
+font-weight: normal;
+}
+
+.reja2 h3{
+Width :135px;
+Height:22px; 
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal; 
+font-size: 14px;
+line-height: 160%;
+
+}
+
+
+.rabochiy_vremya{
+    margin-top: 50px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+}
+
+.ish_vaqti h1{
+    Width:175px;
+    Height:22px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    margin-top: 16px;
+}
+
+.ish_vaqti h2{
+    Width:187px;
+    Height:22px;
+}
+.reja3 h1{
+    Width:59px;
+    Height:22px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+}
+
+.reja3 h2{
+    Width:79px;
+    Height:22px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+}
+
+.reja3 h3{
+    Width:123px;
+    Height:22px;
+    font-style: normal; 
+    font-weight: normal; 
+     font-size: 14px;
+    line-height: 160%;
+}
+
+.reja4 h2{
+    Width:127px;
+    Height:22px;
+    font-style: normal; 
+    font-weight: normal; 
+     font-size: 14px;
+    line-height: 160%;
+}
+
+.reja4 h3{
+    Width:127px;
+    Height:22px;
+    font-style: normal; 
+    font-weight: normal; 
+     font-size: 14px;
+    line-height: 160%;
+}
+
+
+.reja4 h4{
+    Width:127px;
+    Height:22px;
+    font-style: normal; 
+    font-weight: normal; 
+     font-size: 14px;
+    line-height: 160%;
+}
+
+
+.reja4 h5{
+    Width:127px;
+    Height:22px;
+    font-style: normal; 
+    font-weight: normal; 
+     font-size: 14px;
+    line-height: 160%;
+}
+
+.reja4 h6{
+    Width:127px;
+    Height:22px;
+    font-style: normal; 
+    font-weight: normal; 
+     font-size: 14px;
+    line-height: 160%;
+}
